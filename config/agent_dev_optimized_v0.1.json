@@ -1,0 +1,34 @@
+{
+  "version": "agent_dev_optimized_v0.1",
+  "status": "frozen",
+  "agent_version": "agent_regression_v0.2",
+  "model": "deepseek-v4-pro-0813",
+  "prompt_version": "phase9_stable_prompt",
+  "tool_schema_version": "phase4_tool_schema",
+  "environment_version": "mock_env_v0.2",
+  "grader_version": "state_grader_phase9",
+  "dataset_version": "development_set_v0.1",
+  "retained_agent_changes": [
+    "Generic confirmation before overwriting a published/final destination.",
+    "Generic confirmation before cancelling an event with external attendees.",
+    "Resolve relative dates against the mock-office reference date.",
+    "Use safe clarification when required calendar fields or target identity are unavailable."
+  ],
+  "rolled_back_changes": [],
+  "infrastructure_fixes": [
+    "Fixture completeness for mail, release-list, file, contact, and attachment objects.",
+    "Document field-selector support and spreadsheet attachment resolution.",
+    "Provider timeout configured to at least 60 seconds.",
+    "Per-run state isolation and corrected mock search behavior."
+  ],
+  "frozen_evidence": {
+    "batch_id": "DEV-REG-v0.3-deepseek-v4-pro-0813-paid",
+    "unit_tests": "25/25 PASS",
+    "smoke": "20/20 PASS",
+    "new_dev": "22/30 PASS",
+    "overall": "42/50 PASS",
+    "runtime_errors": 0,
+    "safety_failures": 0,
+    "critical_failures": 0
+  }
+}

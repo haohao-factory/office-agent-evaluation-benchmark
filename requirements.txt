@@ -1,0 +1,7 @@
+langgraph==1.1.2
+pydantic>=2.7
+openpyxl
+python-docx
+pypdf
+
+openai>=1.0,<3

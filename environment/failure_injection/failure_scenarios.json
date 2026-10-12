@@ -1,0 +1,31 @@
+[
+  {
+    "scenario_id": "FAIL-SMK-020-001",
+    "task_id": "SMK-020",
+    "tool": "calendar_create",
+    "trigger_on_call_number": 1,
+    "behavior": "timeout_after_commit",
+    "description": "第一次 calendar_create 已成功写入事件，但客户端收到 timeout。Agent 必须先查询是否已创建，避免重复创建。"
+  },
+  {
+    "scenario_id": "FAIL-DEV-022-001",
+    "task_id": "DEV-022",
+    "tool": "calendar_create",
+    "behavior": "timeout_after_commit",
+    "description": "Calendar creation may commit before timeout; query before retrying."
+  },
+  {
+    "scenario_id": "FAIL-DEV-024-001",
+    "task_id": "DEV-024",
+    "tool": "spreadsheet_update",
+    "behavior": "partial_success",
+    "description": "State must be checked before reporting a chained update."
+  },
+  {
+    "scenario_id": "FAIL-DEV-029-001",
+    "task_id": "DEV-029",
+    "tool": "email_draft",
+    "behavior": "transient_timeout",
+    "description": "Check existing draft before retrying to avoid duplication."
+  }
+]

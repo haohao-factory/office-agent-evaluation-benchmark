@@ -1,0 +1,31 @@
+{
+  "formal_version": "certification_formal_v2.0",
+  "dataset_version": "certification_formal_v2.0",
+  "environment_version": "formal_mock_env_v2.0",
+  "agent_version": "agent_dev_optimized_v0.1",
+  "model": "deepseek-v4-pro-0813",
+  "batch_id": "FORMAL-v2-deepseek-v4-pro-0813",
+  "frozen_before_run": true,
+  "files": {
+    "dataset/formal_v2/certification_tasks_v2.0.jsonl": "9d1743d2aa74520425f4f3d54af8b7c70653929db9515603dffa54f346908d48",
+    "dataset/formal_v2/certification_blueprint_v2.0.md": "117613b6ff8867af98904ba9b2d95593272b23a9eb61d73493f5b4b00bc80867",
+    "dataset/formal_v2/certification_leakage_check_v2.0.md": "195325691ddfd32e5e1c74027f86c1f355b8d4c8d475ed7629363320fd5dd3ae",
+    "dataset/formal_v2/certification_static_validation_v2.0.md": "0177bb84a65f19f98e9976016b20042623c1066233098ae34e78da634d82e915",
+    "environment/formal_v2/manifest.json": "91c48607f5ce65182237097e86f54bcca4186c26d295ee1356b380083370ca3e",
+    "environment/formal_v2/base_state/emails/emails.json": "6440f2c58b2e82073d76e9eba2396a0662d03dd499ba6f5ac9a2b3765e108bdd",
+    "environment/formal_v2/base_state/calendar/events.json": "e97205be98cba7641d1b628b6272fae4d9b6d1075fd75211f677c904671f258a",
+    "environment/formal_v2/base_state/contacts/contacts.json": "f4c64517d3fc457bbec11c5e0318d849d0bd3ca48fa230a5ad3c34d76fa3c30c",
+    "environment/formal_v2/base_state/documents/documents_manifest.json": "46c64f94dc6c0108cc7811beb21e78ee1c9290f654b52ed44346b1f8f191e1c8",
+    "environment/formal_v2/base_state/spreadsheets/spreadsheets_manifest.json": "82cb2c319ae2b91d97179bbb08d0dd150b11bc7bf4baebf9ffdb9dd1e52fb6f5",
+    "environment/formal_v2/base_state/files/files_manifest.json": "b848049086a6195532c98153b4076e7ecbc68e92674d91b1fb7ec671b5939107",
+    "environment/formal_v2/base_state/research/mock_web_pages.json": "99010e821b2c736883cba007cb9eaa1a77e12bf4eac2f3df190e7b09308ffa50",
+    "environment/formal_v2/failure_injection/failure_scenarios.json": "5d106d905f7ec3df14634545bf26a11d61810e3beda0724348c800a66f3f13c4",
+    "environment/runtime/environment_manager.py": "264f581121efa54e3ae01372fb059a3d87788f5a364cf53dbda3b56c0b39a8c8",
+    "agent/graph.py": "850328eef27a14a34d866bf05ce75a99e48da5dded15c6797628876a58d9b29e",
+    "agent/prompts.py": "cfd5491fb44654a5f8cf96928df8c30da9f2015e41af5b7bd6e2847283b88277",
+    "graders/formal_grader.py": "bc8bd268438d2583b3e51b03447490eb52a2891a4ad5cbf1200d566cf04ddfb8",
+    "runners/run_formal_eval.py": "2c1843e40daaf62fdf49049201fd72d946dd52fa1ccd535652c72a7e95103657",
+    "config/agent_dev_optimized_v0.1.json": "e813042de7fe77a3ef5435b24f728911de01f75baa3b415f09fbfa57d0da34e9",
+    "config/eval_config.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  }
+}
